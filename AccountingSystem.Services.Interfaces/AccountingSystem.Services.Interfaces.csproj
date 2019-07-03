@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AccountingSystem.Models.Dto\AccountingSystem.Models.Dto.csproj" />
+    <ProjectReference Include="..\AccountingSystem.Models\AccountingSystem.Models.csproj" />
+  </ItemGroup>
+
+</Project>

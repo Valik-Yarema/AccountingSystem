@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AccountingSystem.Common\AccountingSystem.Common.csproj" />
+    <ProjectReference Include="..\AccountingSystem.Models.Dto\AccountingSystem.Models.Dto.csproj" />
+    <ProjectReference Include="..\AccountingSystem.Models\AccountingSystem.Models.csproj" />
+    <ProjectReference Include="..\AccountingSystem.Services.Interfaces\AccountingSystem.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\AccountingSystem.Services\AccountingSystem.Services.csproj" />
+    <ProjectReference Include="..\AccountingSystem.Web.Common\AccountingSystem.Web.Common.csproj" />
+  </ItemGroup>
+
+</Project>
